@@ -24,7 +24,7 @@ if (-Not (Test-Path $DirectoryPath)) {
 }
 
 Write-Output ""
-Write-Output "Let's interact! Please enter your favorite programming language:"
+Write-Output 
 $FavoriteLanguage = Read-Host "Enter here"
 
 Write-Output "Thank you! You entered: $FavoriteLanguage"
